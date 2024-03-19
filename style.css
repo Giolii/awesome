@@ -92,6 +92,8 @@
 .middle{
     display: flex;
     flex-direction: column;
+    border: 5px solid yellow;
+    height: 500px;
 }
 
 .middle img{
@@ -109,4 +111,23 @@
     height: 150px;
     width: 200px;
     text-align: center;
+}
+
+.bottom{
+    border: 5px solid red;
+    background-color: #E5E7EB;
+    padding: 50px 100px ;
+}
+.quote{
+    font-size: 25px;
+    font-style:italic;
+    color:#1F2937;
+    font-weight:100;
+    
+    text-align: center;
+}
+
+figcaption{
+    text-align: end;
+    padding: 20px 0;
 }
